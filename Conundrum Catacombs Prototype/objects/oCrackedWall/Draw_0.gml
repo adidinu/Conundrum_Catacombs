@@ -5,13 +5,14 @@ draw_self();
 
 if(place_meeting(x,y,oPlayer)){
 	if(!taken){
-		draw_text(x,y-20,"Press X to interact");
+		draw_set_font(fntPixellari);
+		draw_text_transformed(x, y, "Press X to interact", 0.4, 0.4, 0);
 		keyDown = keyboard_check(ord("X"));
 		if(keyDown){
-			if(item <= 0.25){
+			if(item <= 0.50){
 				light = instance_find(oLightTimer,0);
 				light.image_xscale -= 0.25;
-				draw_text(x,y-20, "GHINION");
+			//	draw_text(x,y-20, "GHINION");
 			}
 			else{
 				player = instance_find(oPlayer,0);
@@ -24,11 +25,11 @@ if(place_meeting(x,y,oPlayer)){
 
 if(taken == true and afterText == false){
 	if(place_meeting(x,y,oPlayer)){
-		if(item > 0.25){
-			draw_text(x,y-20, "PIATRA");
+		if(item > 0.50){
+			draw_text_transformed(x, y, "You found a rock!", 0.4, 0.4, 0);
 		}
 		else{
-			draw_text(x,y-20, "GHINION");
+			draw_text_transformed(x-10, y, "You damaged your torch!", 0.4, 0.4, 0);
 		}
 	}
 	else{
