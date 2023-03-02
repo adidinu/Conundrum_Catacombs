@@ -7,6 +7,7 @@ keyActivate = keyboard_check_pressed(vk_space);
 keyItem = keyboard_check_pressed(vk_control);
 
 inputDirection = point_direction(0,0,keyRight - keyLeft, keyDown - keyUp);
+show_debug_message(inputDirection);
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 
 // Movement
