@@ -1,22 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oRock",
+  "name": "oRedDoorClosed",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oItem","path":"objects/oItem/oItem.yy",},"propertyId":{"name":"image_xscale","path":"objects/oItem/oItem.yy",},"value":"0.4",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oItem","path":"objects/oItem/oItem.yy",},"propertyId":{"name":"image_yscale","path":"objects/oItem/oItem.yy",},"value":"0.4",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oItem",
-    "path": "objects/oItem/oItem.yy",
+    "name": "oDoor",
+    "path": "objects/oDoor/oDoor.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -34,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sRock",
-    "path": "sprites/sRock/sRock.yy",
+    "name": "sRedDoorClosed",
+    "path": "sprites/sRedDoorClosed/sRedDoorClosed.yy",
   },
   "spriteMaskId": null,
   "visible": true,

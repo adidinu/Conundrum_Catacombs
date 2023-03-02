@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oItem","path":"objects/oItem/oItem.yy",},"propertyId":{"name":"image_yscale","path":"objects/oItem/oItem.yy",},"value":"0.4",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "parentObjectId": {
     "name": "oItem",

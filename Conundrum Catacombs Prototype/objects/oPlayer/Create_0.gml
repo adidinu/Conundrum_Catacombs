@@ -9,11 +9,3 @@ spriteIdle = sPlayer;
 localFrame = 0;
 
 inventory = instance_find(oInventory, 0);
-
-
-enum ITEMS
-{
-ROCK,
-RED_KEY,
-BLUE_KEY
-}
