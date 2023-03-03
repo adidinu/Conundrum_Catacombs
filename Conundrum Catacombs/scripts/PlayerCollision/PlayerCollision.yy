@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerAnimateSprite",
+  "name": "PlayerCollision",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

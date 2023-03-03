@@ -8,6 +8,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Items","order":10,"path":"folders/Objects/Items.yy",},
     {"name":"Lighting","order":1,"path":"folders/Objects/Lighting.yy",},
+    {"name":"Managers","order":16,"path":"folders/Objects/Managers.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Lighting","order":2,"path":"folders/Scripts/Lighting.yy",},
@@ -28,7 +29,6 @@
     {"name":"LUT","order":1,"path":"folders/Sprites/Lighting/LUT.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Managers","order":16,"path":"folders/Objects/Managers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"draw_shadow_map","order":5,"path":"scripts/draw_shadow_map/draw_shadow_map.yy",},

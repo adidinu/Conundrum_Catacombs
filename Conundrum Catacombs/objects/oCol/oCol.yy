@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayer",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "oCol",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "PlayerCharacter",
-    "path": "folders/Objects/PlayerCharacter.yy",
+    "name": "InvisibleCollisionObjects",
+    "path": "folders/Objects/InvisibleCollisionObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,12 +26,9 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sCol",
+    "path": "sprites/sCol/sCol.yy",
   },
-  "spriteMaskId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

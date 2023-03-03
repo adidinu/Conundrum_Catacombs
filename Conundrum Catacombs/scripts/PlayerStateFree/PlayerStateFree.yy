@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerAnimateSprite",
+  "name": "PlayerStateFree",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerFunctions",
-    "path": "folders/Scripts/PlayerFunctions.yy",
+    "name": "PlayerStateMachine",
+    "path": "folders/Scripts/PlayerStateMachine.yy",
   },
 }
