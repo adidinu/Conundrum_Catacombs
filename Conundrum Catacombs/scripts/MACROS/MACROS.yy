@@ -8,4 +8,7 @@
     "name": "Scripts",
     "path": "folders/Scripts.yy",
   },
+  "tags": [
+    "Macro",
+  ],
 }
