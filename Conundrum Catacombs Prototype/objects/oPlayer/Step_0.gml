@@ -10,17 +10,17 @@ inputDirection = point_direction(0,0,keyRight - keyLeft, keyDown - keyUp);
 //show_debug_message(inputDirection);
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 
-// Movement
+/// Movement
 
 hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
 
-// collision with walls
+/// collision with walls
 
 PlayerCollision(oCol);
 
-// collision with door
+/// collision with door
 
  PlayerCollision(oDoorCol);
 
@@ -29,7 +29,7 @@ y += vSpeed;
 
 
 
-// Update Sprite Index
+/// Update Sprite Index
 
 var _oldSprite = sprite_index;
  if (inputMagnitude != 0)
@@ -39,12 +39,13 @@ var _oldSprite = sprite_index;
 } else sprite_index = spriteIdle;
 if (_oldSprite != sprite_index) localFrame = 0;
 
-// Update Image Index
+/// Update Image Index
 
 PlayerAnimateSprite();
 
+/// Increase player health on pickup of Cloth
 
-var cloth_inst = instance_place(x, y, oCloth);
+ var cloth_inst = instance_place(x, y, oCloth);
 
 if (cloth_inst != noone) 
 {

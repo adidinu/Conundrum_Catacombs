@@ -7,6 +7,7 @@ enum ITEMS
 {
 ROCK,
 RED_KEY,
-BLUE_KEY
+BLUE_KEY,
+CLOTH
 }
 
