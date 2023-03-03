@@ -106,7 +106,6 @@
     {"id":{"name":"Contributors","path":"notes/Contributors/Contributors.yy",},"order":0,},
     {"id":{"name":"sLightTimer","path":"sprites/sLightTimer/sLightTimer.yy",},"order":10,},
     {"id":{"name":"spr_lut_light_intensity_line","path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},"order":1,},
-    {"id":{"name":"oItemUse","path":"objects/oItemUse/oItemUse.yy",},"order":4,},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},"order":14,},
     {"id":{"name":"light_create_directional","path":"scripts/light_create_directional/light_create_directional.yy",},"order":7,},
     {"id":{"name":"sCrate2","path":"sprites/sCrate2/sCrate2.yy",},"order":6,},

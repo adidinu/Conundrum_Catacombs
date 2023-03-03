@@ -80,7 +80,6 @@
     {"name":"LICENSE","order":1,"path":"notes/LICENSE/LICENSE.yy",},
     {"name":"sLightTimer","order":10,"path":"sprites/sLightTimer/sLightTimer.yy",},
     {"name":"spr_lut_light_intensity_line","order":1,"path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},
-    {"name":"oItemUse","order":4,"path":"objects/oItemUse/oItemUse.yy",},
     {"name":"sInventory","order":14,"path":"sprites/sInventory/sInventory.yy",},
     {"name":"light_create_directional","order":7,"path":"scripts/light_create_directional/light_create_directional.yy",},
     {"name":"sCrate2","order":6,"path":"sprites/sCrate2/sCrate2.yy",},
