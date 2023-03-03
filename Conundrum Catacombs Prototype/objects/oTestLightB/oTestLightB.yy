@@ -16,8 +16,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lightStatic","path":"objects/obj_lightStatic/obj_lightStatic.yy",},"propertyId":{"name":"Light_Type","path":"objects/obj_lightStatic/obj_lightStatic.yy",},"value":"\"Point Light\"",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Lighting",
+    "path": "folders/Objects/Lighting.yy",
   },
   "parentObjectId": {
     "name": "obj_lightStatic",

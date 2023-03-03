@@ -9,3 +9,4 @@ if (burning == true){
 		image_xscale = 0;
 	}
 }
+

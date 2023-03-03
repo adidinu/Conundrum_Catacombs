@@ -22,7 +22,7 @@ PlayerCollision(oCol);
 
 // collision with door
 
-PlayerCollision(oDoorCol);
+ PlayerCollision(oDoorCol);
 
 x += hSpeed;
 y += vSpeed;
