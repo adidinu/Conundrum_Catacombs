@@ -27,7 +27,8 @@ PlayerCollision(oCol);
 x += hSpeed;
 y += vSpeed;
 
-
+attached_object.x = x;
+attached_object.y = y;
 
 /// Update Sprite Index
 

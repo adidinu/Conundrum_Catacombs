@@ -132,6 +132,7 @@
     {"id":{"name":"spr_light_line","path":"sprites/spr_light_line/spr_light_line.yy",},"order":4,},
     {"id":{"name":"oCandleB","path":"objects/oCandleB/oCandleB.yy",},"order":8,},
     {"id":{"name":"ext_light_attenuation_apply","path":"scripts/ext_light_attenuation_apply/ext_light_attenuation_apply.yy",},"order":0,},
+    {"id":{"name":"oTorchPlayer","path":"objects/oTorchPlayer/oTorchPlayer.yy",},"order":17,},
     {"id":{"name":"obj_shadow_caster","path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},"order":3,},
     {"id":{"name":"sCrate","path":"sprites/sCrate/sCrate.yy",},"order":5,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":2,},

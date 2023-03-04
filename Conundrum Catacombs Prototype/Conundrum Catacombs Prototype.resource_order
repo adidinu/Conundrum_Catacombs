@@ -104,6 +104,7 @@
     {"name":"obj_lightStatic","order":4,"path":"objects/obj_lightStatic/obj_lightStatic.yy",},
     {"name":"spr_light_line","order":4,"path":"sprites/spr_light_line/spr_light_line.yy",},
     {"name":"oCandleB","order":8,"path":"objects/oCandleB/oCandleB.yy",},
+    {"name":"oTorchPlayer","order":17,"path":"objects/oTorchPlayer/oTorchPlayer.yy",},
     {"name":"obj_shadow_caster","order":3,"path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},
     {"name":"sCrate","order":5,"path":"sprites/sCrate/sCrate.yy",},
     {"name":"oDoor","order":2,"path":"objects/oDoor/oDoor.yy",},
