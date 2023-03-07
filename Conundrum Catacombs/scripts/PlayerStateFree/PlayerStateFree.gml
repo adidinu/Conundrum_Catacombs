@@ -11,6 +11,7 @@ vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 PlayerCollision(oCol);
 PlayerCollision(oBlueDoorCol);
 PlayerCollision(oRedDoorCol);
+PlayerCollision(oPPlateWallCol);
 
 /// Update Sprite Index
 
@@ -27,6 +28,7 @@ if (_oldSprite != sprite_index) localFrame = 0;
 PlayerAnimateSprite();
 
 /// Change State - create state change conditions
+
 
 // Reignite Torch
 if (keyItem)

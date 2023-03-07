@@ -4,7 +4,7 @@
   "name": "sPlayer",
   "bbox_bottom": 15,
   "bbox_left": 5,
-  "bbox_right": 9,
+  "bbox_right": 11,
   "bbox_top": 13,
   "bboxMode": 2,
   "collisionKind": 1,

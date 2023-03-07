@@ -12,6 +12,6 @@ localFrame = 0;
 
 inventory = instance_find(oInventory, 0);
 
-attached_object = instance_create_layer(x, y,"Player", oTorchPlayer);
+// attached_object = instance_create_layer(x, y,"Player", oTorchPlayer);
 
 

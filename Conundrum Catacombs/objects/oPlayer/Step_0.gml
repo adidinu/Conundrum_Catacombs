@@ -9,7 +9,11 @@ keyItem = keyboard_check_pressed(ord("Z"));
 inputDirection = point_direction(0,0,keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 
+// Handles Player States
 if (!global.gamePaused) PlayerStateFree();
+
+// Handles the Light Torch System
+PlayerReignite();
 
 x += hSpeed;
 y += vSpeed;
