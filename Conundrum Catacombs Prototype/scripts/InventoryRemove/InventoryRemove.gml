@@ -1,4 +1,3 @@
-
 function InventoryRemove(rootObject,itemType)
 {
 	var _slot = InventorySearch(rootObject,itemType);

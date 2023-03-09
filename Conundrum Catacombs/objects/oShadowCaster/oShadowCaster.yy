@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ShadowCasters",
-    "path": "folders/Objects/InvisibleCollisionObjects/ShadowCasters.yy",
+    "name": "InvisibleCollisionObjects",
+    "path": "folders/Objects/InvisibleCollisionObjects.yy",
   },
   "parentObjectId": {
     "name": "obj_shadow_caster",

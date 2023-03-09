@@ -1,1 +1,0 @@
-show_debug_message("Loading Room: " + room_get_name(rInit));
