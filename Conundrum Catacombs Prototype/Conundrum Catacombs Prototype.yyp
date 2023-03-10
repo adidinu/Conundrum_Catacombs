@@ -21,7 +21,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lighting","folderPath":"folders/Objects/Lighting.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Managers","folderPath":"folders/Objects/Managers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Paths/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lighting","folderPath":"folders/Scripts/Lighting.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extension Modules","folderPath":"folders/Scripts/Lighting/Extension Modules.yy",},

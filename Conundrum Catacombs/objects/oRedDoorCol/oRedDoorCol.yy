@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "InvisibleCollisionObjects",
-    "path": "folders/Objects/InvisibleCollisionObjects.yy",
+    "name": "RedDoor",
+    "path": "folders/Objects/InteractableObjects/RedDoor.yy",
   },
   "parentObjectId": null,
   "persistent": false,

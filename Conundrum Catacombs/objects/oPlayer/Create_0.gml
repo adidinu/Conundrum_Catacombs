@@ -6,7 +6,7 @@ state = PlayerStateFree;
 image_speed = 0; // idle animation speed - keep 0
 hSpeed = 0; // horizontal speed
 vSpeed = 0; // vertical speeed
-speedWalk = 0.7; // speed walk
+speedWalk = 1.5; // speed walk
 
 inventory = instance_find(oInventory, 0);
 

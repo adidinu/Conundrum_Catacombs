@@ -11,7 +11,7 @@ vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 PlayerCollision(oCol);
 PlayerCollision(oBlueDoorCol);
 PlayerCollision(oRedDoorCol);
-PlayerCollision(oPPlateWallCol);
+PlayerCollision(oPressurePlateCol);
 
 /// Update Sprite Index
 

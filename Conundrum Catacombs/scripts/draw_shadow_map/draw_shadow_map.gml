@@ -19,7 +19,7 @@ function draw_shadow_map(argument0, argument1) {
 
 	// Shadow intensity
 	shader_set_uniform_f(global.u_AmbientShadow, global.ambientShadowIntensity);
-	shader_set_uniform_f_array(global.u_TexelSize_ShadowMap, [1.0 / surface_get_width(surface), 1.0 / surface_get_height(surface)]);
+	shader_set_uniform_f_array(global.u_TexelSize_ShadowMap, [0.0 / surface_get_width(surface), 0.0 / surface_get_height(surface)]);
 
 	//
 	// Draw shadow map to the screen
