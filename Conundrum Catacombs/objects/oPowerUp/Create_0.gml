@@ -1,3 +1,1 @@
-event_inherited();
-
-
+playerObj = instance_find(oPlayer, 0)

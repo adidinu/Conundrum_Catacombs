@@ -5,14 +5,13 @@ function PowerUp()
 	if (tleg_inst != noone) 
 	{
 		speedWalk = 1;
-		myTime = 120;
+		myTime = 30;
 		instance_destroy(tleg_inst);
 	}
 	
 	if (myTime > 0)
 	{
-		myTime = myTime - delta_time/100000 
-		show_debug_message(myTime);
+		myTime = max(myTime - delta_time/1000000, 0);
 	}
 	
     if (myTime <= 0)
