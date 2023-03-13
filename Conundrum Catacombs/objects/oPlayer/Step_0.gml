@@ -15,5 +15,9 @@ if (!global.gamePaused) PlayerStateFree();
 // Handles the Light Torch System
 PlayerReignite();
 
+// Handles PowerUps
+
+PowerUp();
+
 x += hSpeed;
 y += vSpeed;

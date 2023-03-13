@@ -9,6 +9,11 @@ if (cloth_inst != noone)
    instance_destroy(cloth_inst);
 }
 
+if place_meeting(x,y,oDraftCol)
+{
+	oLightTimer.image_xscale -= 0.001;
+}
+
 if (oLightTimer.image_xscale > 1.0) 
 {
 	oLightTimer.image_xscale = 1.0;
