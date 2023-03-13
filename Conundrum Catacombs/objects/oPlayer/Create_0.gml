@@ -8,6 +8,7 @@ hSpeed = 0; // horizontal speed
 vSpeed = 0; // vertical speeed
 speedWalk = 0.7; // speed walk
 myTime = 0;
+counterFootsteps = 0;
 
 inventory = instance_find(oInventory, 0);
 

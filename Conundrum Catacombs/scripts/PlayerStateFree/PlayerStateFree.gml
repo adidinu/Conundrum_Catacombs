@@ -6,6 +6,16 @@ function PlayerStateFree()
 hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
+/// Footstep Sounds
+
+if (sprite_index == spriteRun) && (counterFootsteps == 0)
+{
+	audio_play_sound(choose(sndFootstep1,sndFoostep2,sndFootstep3,sndFootstep4,sndFootstep5,sndFootstep6,sndFootstep7), 1, false, 0.1);
+	counterFootsteps = 45;  // number of steps to wait before playing sound
+}
+else if (counterFootsteps > 0)
+counterFootsteps--;
+
 /// Collision Check
 
 PlayerCollision(oCol);
