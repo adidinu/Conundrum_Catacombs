@@ -176,6 +176,8 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sBlueDoorClosed","path":"sprites/sBlueDoorClosed/sBlueDoorClosed.yy",},},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
+    {"id":{"name":"Coins","path":"scripts/Coins/Coins.yy",},},
+    {"id":{"name":"oCoins","path":"objects/oCoins/oCoins.yy",},},
     {"id":{"name":"draw_shadow_map","path":"scripts/draw_shadow_map/draw_shadow_map.yy",},},
     {"id":{"name":"sPowerUpArrow","path":"sprites/sPowerUpArrow/sPowerUpArrow.yy",},},
     {"id":{"name":"point_in_polygon","path":"scripts/point_in_polygon/point_in_polygon.yy",},},

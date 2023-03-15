@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 0.298667,
   "parent": {
     "name": "PlayerFootstep",
     "path": "folders/Sounds/PlayerFootstep.yy",

@@ -130,6 +130,8 @@
     {"name":"oShadowCaster","order":5,"path":"objects/oShadowCaster/oShadowCaster.yy",},
     {"name":"oPressurePlateWallOpen","order":5,"path":"objects/oPressurePlateWallOpen/oPressurePlateWallOpen.yy",},
     {"name":"oInventory","order":2,"path":"objects/oInventory/oInventory.yy",},
+    {"name":"Coins","order":6,"path":"scripts/Coins/Coins.yy",},
+    {"name":"oCoins","order":4,"path":"objects/oCoins/oCoins.yy",},
     {"name":"draw_shadow_map","order":5,"path":"scripts/draw_shadow_map/draw_shadow_map.yy",},
     {"name":"sPowerUpArrow","order":4,"path":"sprites/sPowerUpArrow/sPowerUpArrow.yy",},
     {"name":"point_in_polygon","order":6,"path":"scripts/point_in_polygon/point_in_polygon.yy",},

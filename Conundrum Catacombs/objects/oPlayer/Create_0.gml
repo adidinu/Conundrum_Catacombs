@@ -10,6 +10,9 @@ speedWalk = 0.7; // speed walk
 myTime = 0;
 counterFootsteps = 0;
 
+myCoins = 0;
+currentCoins = 0;
+
 inventory = instance_find(oInventory, 0);
 
 /// Player Sprites

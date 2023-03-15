@@ -255,6 +255,7 @@
     {"name":"inst_8C65F28","path":"rooms/rLevel_1/rLevel_1.yy",},
     {"name":"inst_5FFBB83B","path":"rooms/rLevel_1/rLevel_1.yy",},
     {"name":"inst_769F32D3","path":"rooms/rLevel_1/rLevel_1.yy",},
+    {"name":"inst_568D5E09","path":"rooms/rLevel_1/rLevel_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -264,6 +265,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7229CC3F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTorch","path":"objects/oTorch/oTorch.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7198CAC4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_234C89BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPowerUp","path":"objects/oPowerUp/oPowerUp.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":361.0,"y":92.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_568D5E09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCoins","path":"objects/oCoins/oCoins.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"DraftCol","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E546A2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oDraftCol","path":"objects/oDraftCol/oDraftCol.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":288.0,"y":64.0,},

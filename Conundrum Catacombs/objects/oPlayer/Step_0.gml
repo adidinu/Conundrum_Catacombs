@@ -19,5 +19,9 @@ PlayerReignite();
 
 PowerUp();
 
+// Handles Coins
+
+Coins();
+
 x += hSpeed;
 y += vSpeed;
