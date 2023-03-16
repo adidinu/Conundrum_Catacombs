@@ -22,6 +22,7 @@ PlayerCollision(oCol);
 PlayerCollision(oBlueDoorCol);
 PlayerCollision(oRedDoorCol);
 PlayerCollision(oPressurePlateCol);
+PlayerCollision(oLeverDoorCol);
 
 /// Update Sprite Index
 

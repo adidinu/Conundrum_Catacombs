@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oShadowCaster",
+  "name": "oRoomExit",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Lighting",
-    "path": "folders/Objects/Lighting.yy",
+    "name": "InvisibleCollisionObjects",
+    "path": "folders/Objects/InvisibleCollisionObjects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_shadow_caster",
-    "path": "objects/obj_shadow_caster/obj_shadow_caster.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sShadowCaster",
-    "path": "sprites/sShadowCaster/sShadowCaster.yy",
+    "name": "sRoomExit",
+    "path": "sprites/sRoomExit/sRoomExit.yy",
   },
   "spriteMaskId": null,
   "visible": true,
