@@ -58,6 +58,8 @@
     {"name":"UI","order":4,"path":"folders/Sprites/UI.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"NPCs","order":10,"path":"folders/Sprites/NPCs.yy",},
+    {"name":"NPC","order":11,"path":"folders/Objects/NPC.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oBlueDoorOpen","order":3,"path":"objects/oBlueDoorOpen/oBlueDoorOpen.yy",},
