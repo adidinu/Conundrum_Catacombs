@@ -1,7 +1,7 @@
-var target = rLevel_1;
+var target = rMainMenu;
 
-if (room == rLevel_1) && place_meeting(x,y,oPlayer)
+if (room == rInit) && place_meeting(x,y,oPlayer)
 {
-	target = rLevel_2;
+	target = rMainMenu;
 	TransitionStart(target,sqFadeOut,sqFadeIn);
 }

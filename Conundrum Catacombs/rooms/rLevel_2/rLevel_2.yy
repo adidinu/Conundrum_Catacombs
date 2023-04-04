@@ -159,6 +159,8 @@
     {"name":"inst_6C9C9183","path":"rooms/rLevel_2/rLevel_2.yy",},
     {"name":"inst_E8C6B5C","path":"rooms/rLevel_2/rLevel_2.yy",},
     {"name":"inst_605586BB","path":"rooms/rLevel_2/rLevel_2.yy",},
+    {"name":"inst_6DA21425","path":"rooms/rLevel_2/rLevel_2.yy",},
+    {"name":"inst_4261F8A6","path":"rooms/rLevel_2/rLevel_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -320,6 +322,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C9C9183","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCloth","path":"objects/oCloth/oCloth.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":422.0,"y":141.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E8C6B5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"properties":[],"rotation":53.220737,"scaleX":1.0,"scaleY":1.0,"x":394.50388,"y":123.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_605586BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oLeverText","path":"objects/oLeverText/oLeverText.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":481.0,"y":247.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DA21425","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":240.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4261F8A6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTurkeyLeg","path":"objects/oTurkeyLeg/oTurkeyLeg.yy",},"properties":[],"rotation":46.389156,"scaleX":1.0,"scaleY":1.0,"x":313.0,"y":250.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"InteractableObjects","depth":600,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D562A4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oLeverDoor","path":"objects/oLeverDoor/oLeverDoor.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":112.0,},

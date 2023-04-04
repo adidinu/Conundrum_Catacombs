@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "InvisibleCollisionObjects",
-    "path": "folders/Objects/InvisibleCollisionObjects.yy",
+    "name": "RoomExits",
+    "path": "folders/Objects/InvisibleCollisionObjects/RoomExits.yy",
   },
   "parentObjectId": null,
   "persistent": false,

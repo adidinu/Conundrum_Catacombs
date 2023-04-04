@@ -31,5 +31,12 @@ spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
 
+/// GamePad Settings
+gamepad_set_axis_deadzone(global.GP_NUM,0.5);
+
+
+
+
+
 
 
