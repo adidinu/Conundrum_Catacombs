@@ -5,7 +5,15 @@ if(checkOpen()){
 	sprite_index = sRedDoorOpen;
 	instance_destroy(oRedDoorCol);
 	instance_destroy(oShadowRedDoor);
-	oRedDoorClosed.depth = 400;
 	//instance_create_layer(x, y, "Player", oRedDoorOpen);
 	//instance_destroy(id);
+}
+
+if ( playerObj.y > y + sprite_height/2 )
+{
+	depth = playerObj.depth + 1 // appear in frnt of player
+}
+else
+{
+	depth = playerObj.depth - 1 // appear behind player
 }

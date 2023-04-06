@@ -10,6 +10,5 @@ function LeverUsage()
 	if (countdownTimer > 0)
 	{
 		countdownTimer = max(countdownTimer - delta_time/1000000, 0);
-		show_debug_message(countdownTimer);
 	}
 }

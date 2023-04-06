@@ -14,7 +14,7 @@ if (place_meeting(playerObj.x,playerObj.y, Bonfire))
 
 if (burning == true)
 {
-	image_xscale -= 0.0002; 
+	image_xscale -= 0.0001; 
 	
 // Stop shrinking the object once it reaches a certain size
 	if (image_xscale <= 0)

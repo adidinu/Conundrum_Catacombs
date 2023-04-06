@@ -8,4 +8,13 @@ if place_meeting(x,y,oPlayer) && playerObj.keyActivate && playerObj.countdownTim
 }
 
 
+if ( y > playerObj.y )
+{
+	depth = playerObj.depth - 1 // appear in frnt of player
+}
+else
+{
+	depth = playerObj.depth + 1 // appear behind player
+}
+
 

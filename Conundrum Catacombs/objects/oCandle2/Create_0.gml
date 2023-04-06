@@ -1,4 +1,4 @@
-image_xscale = 0.5
-image_yscale = 0.5
+image_xscale = 0.7
+image_yscale = 0.7
 
-oCandle.depth = 500;
+objPlayer = instance_find (oPlayer,0)

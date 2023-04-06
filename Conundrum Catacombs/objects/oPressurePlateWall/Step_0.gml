@@ -5,6 +5,6 @@ if instance_exists(oPressurePlateCol)
 else
 {
 		sprite_index = sPressurePlateWallOpen
-		oPressurePlateWall.depth = 400;
+		oPressurePlateWall.depth = 200;
 }
 

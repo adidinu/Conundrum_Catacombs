@@ -6,7 +6,6 @@ keyDown = keyboard_check(vk_down) or keyboard_check(ord("S")) or (gamepad_axis_v
 keyActivate = keyboard_check_pressed(ord("X")) or gamepad_button_check(global.GP_NUM,gp_face1);
 keyItem = keyboard_check_pressed(ord("Z"));
 
-show_debug_message(gamepad_axis_value(global.GP_NUM,gp_axislh));
 
 inputDirection = point_direction(0,0,keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
