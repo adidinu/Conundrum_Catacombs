@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTurkeyLeg",
+  "name": "oBonfire3",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickable Items",
-    "path": "folders/Objects/Pickable Items.yy",
+    "name": "LightDecorations",
+    "path": "folders/Objects/Lighting/LightingInstances/LightDecorations.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTurkeyLeg",
-    "path": "sprites/sTurkeyLeg/sTurkeyLeg.yy",
+    "name": "sBonfire",
+    "path": "sprites/sBonfire/sBonfire.yy",
   },
   "spriteMaskId": null,
   "visible": true,

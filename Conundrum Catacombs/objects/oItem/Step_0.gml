@@ -7,7 +7,7 @@ if (place_meeting(x, y, oPlayer))
 
 if ( player.y > y + sprite_height/2 )
 {
-	depth = player.depth - 1 // appear in frnt of player
+	depth = player.depth + 1 // appear in frnt of player
 }
 else
 {

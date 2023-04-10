@@ -2,5 +2,5 @@ event_inherited();
 
 type = ITEMS.ROCK
 
-depth = 800;
+depth = 950;
 
