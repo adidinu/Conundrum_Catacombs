@@ -12,8 +12,9 @@ counterFootsteps = 0;
 
 /// Coins
 
-myCoins = 0;
-currentCoins = 0;
+// myCoins = 0;
+// currentCoins = 0;
+currentCoins = global.coins;
 
 /// Inventory
 

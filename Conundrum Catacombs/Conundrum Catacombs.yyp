@@ -419,6 +419,7 @@
     {"id":{"name":"__input_key_get_name","path":"scripts/__input_key_get_name/__input_key_get_name.yy",},},
     {"id":{"name":"input_accessibility_global_toggle_set","path":"scripts/input_accessibility_global_toggle_set/input_accessibility_global_toggle_set.yy",},},
     {"id":{"name":"input_source_using","path":"scripts/input_source_using/input_source_using.yy",},},
+    {"id":{"name":"Sprite61","path":"sprites/Sprite61/Sprite61.yy",},},
     {"id":{"name":"input_check_pressed","path":"scripts/input_check_pressed/input_check_pressed.yy",},},
     {"id":{"name":"input_profile_copy","path":"scripts/input_profile_copy/input_profile_copy.yy",},},
     {"id":{"name":"oCLight2","path":"objects/oCLight2/oCLight2.yy",},},

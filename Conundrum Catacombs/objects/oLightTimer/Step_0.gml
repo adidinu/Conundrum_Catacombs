@@ -4,7 +4,7 @@
 x = camera_get_view_x(view_camera[0]) + 140;
 y = camera_get_view_y(view_camera[0]) + 165;
 
-if (place_meeting(playerObj.x,playerObj.y, Bonfire))
+if (place_meeting(playerObj.x,playerObj.y, Bonfire)) // if player is near bonfire no light dmg is done
 {
 	burning = false;
 } else

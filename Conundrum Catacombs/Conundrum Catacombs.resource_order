@@ -346,6 +346,7 @@
     {"name":"__input_key_get_name","order":18,"path":"scripts/__input_key_get_name/__input_key_get_name.yy",},
     {"name":"input_accessibility_global_toggle_set","order":3,"path":"scripts/input_accessibility_global_toggle_set/input_accessibility_global_toggle_set.yy",},
     {"name":"input_source_using","order":10,"path":"scripts/input_source_using/input_source_using.yy",},
+    {"name":"Sprite61","order":16,"path":"sprites/Sprite61/Sprite61.yy",},
     {"name":"input_check_pressed","order":11,"path":"scripts/input_check_pressed/input_check_pressed.yy",},
     {"name":"input_profile_copy","order":5,"path":"scripts/input_profile_copy/input_profile_copy.yy",},
     {"name":"oCLight2","order":2,"path":"objects/oCLight2/oCLight2.yy",},
