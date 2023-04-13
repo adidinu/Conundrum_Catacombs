@@ -17,7 +17,7 @@ function PowerUp()
 	
     if (myTime <= 0)
 	{
-		speedWalk = 0.7;
+		speedWalk = 3;
 	}
 	
 }

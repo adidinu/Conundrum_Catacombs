@@ -2,9 +2,15 @@ if place_meeting(x,y,oPlayer) && playerObj.keyActivate && playerObj.countdownTim
 {
 	sprite_index = spriteUsed;
 	lever2_used = true;
-	instance_destroy(oDoor);
+	instance_destroy(oLeverDoor);
 	instance_destroy(oLeverDoorCol);
 	instance_destroy(oShadowLeverDoor);
+	if soundPlayed == false
+	{
+				show_debug_message("muie2");
+		audio_play_sound(sfxLever_Pull, 1, false, 1);
+		soundPlayed = true;
+	}
 }
 
 if ( y > playerObj.y )

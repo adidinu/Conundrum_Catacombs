@@ -4,8 +4,6 @@ function Coins()
 	
 	if (coin_inst != noone) 
 	{
-		// myCoins = currentCoins + 1;
-		// currentCoins = myCoins;
 		global.coins += 1;
 		show_debug_message(global.coins);
 		instance_destroy(coin_inst);

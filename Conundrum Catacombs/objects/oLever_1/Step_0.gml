@@ -5,18 +5,20 @@ if lever2Obj.lever2_used == true
 
 else if playerObj.countdownTimer > 0
 {
-	sprite_index = spriteUsed;
+	sprite_index = spriteUsed; 
 	lever1_used = true;
-	show_debug_message(lever1_used);
+	if soundPlayed == false
+	{
+		show_debug_message("muie1");
+		audio_play_sound(sfxLever_Pull, 1, false, 1);
+		soundPlayed = true;
+	}
 }
-
-
 else 
-
 {
+	soundPlayed = false;
 	sprite_index = spriteUnused
 	lever1_used = false;
-	show_debug_message(lever1_used);
 }
 
 if ( y > playerObj.y )

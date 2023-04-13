@@ -12,10 +12,7 @@
     "name": "PressurePlate",
     "path": "folders/Objects/InteractableObjects/PressurePlate.yy",
   },
-  "parentObjectId": {
-    "name": "oDoor",
-    "path": "objects/oDoor/oDoor.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

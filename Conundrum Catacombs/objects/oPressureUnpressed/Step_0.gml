@@ -1,5 +1,4 @@
 // Inherit the parent event
-event_inherited();
 
 if(checkOpen()){
 	sprite_index = sPressurePressedRock;

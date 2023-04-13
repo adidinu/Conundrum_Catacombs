@@ -3,55 +3,53 @@ function PlayerStateFree()
 {
 /// Movement
 
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
+	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-/// Footstep Sounds
+	/// Footstep Sounds
 
-if (sprite_index == spriteRun) && (counterFootsteps == 0)
-{
-	audio_play_sound(choose(sndFootstep1,sndFoostep2,sndFootstep3,sndFootstep4,sndFootstep5,sndFootstep6,sndFootstep7), 1, false, 0.1);
-	counterFootsteps = 45;  // number of steps to wait before playing sound
-}
-else if (counterFootsteps > 0)
-counterFootsteps--;
+	if (sprite_index == spriteRun) && (counterFootsteps == 0)
+	{
+		audio_play_sound(choose(sndFootstep1,sndFoostep2,sndFootstep3,sndFootstep4,sndFootstep5,sndFootstep6,sndFootstep7), 1, false, 0.1);
+		counterFootsteps = 45;  // number of steps to wait before playing sound
+	}
+	else if (counterFootsteps > 0)
+	counterFootsteps--;
 
-/// Collision Check
+	/// Collision Check
 
-PlayerCollision(oCol);
-PlayerCollision(oBlueDoorCol);
-PlayerCollision(oRedDoorCol);
-PlayerCollision(oPressurePlateCol);
-PlayerCollision(oLeverDoorCol);
+	PlayerCollision(oCol);
+	PlayerCollision(oBlueDoorCol);
+	PlayerCollision(oRedDoorCol);
+	PlayerCollision(oPressurePlateCol);
+	PlayerCollision(oLeverDoorCol);
 
-/// Update Sprite Index
+	/// Update Sprite Index
 
-var _oldSprite = sprite_index;
-if (inputMagnitude != 0)
-{
-	direction = inputDirection;
-	sprite_index = spriteRun;
-} else sprite_index = spriteIdle;
-if (_oldSprite != sprite_index) localFrame = 0;
+	var _oldSprite = sprite_index;
+	if (inputMagnitude != 0)
+	{
+		direction = inputDirection;
+		sprite_index = spriteRun;
+	} else sprite_index = spriteIdle;
+	if (_oldSprite != sprite_index) localFrame = 0;
 
-/// Update Image Index
+	/// Update Image Index
 
-PlayerAnimateSprite();
+	PlayerAnimateSprite();
 
-/// Change State - create state change conditions
+	/// Change State - create state change conditions
 
 
-// Reignite Torch
-if (keyItem)
-{
-	show_debug_message("work")
-	state = PlayerStateReignite();
-}
+	// Reignite Torch
+	if (keyItem)
+	{
+		state = PlayerStateReignite();
+	}
 
-// Use Lever
-if (keyActivate)
-{
-	show_debug_message("work")
-	state = PlayerUse()
-}
+	// Use Lever
+	if (keyActivate)
+	{
+		state = PlayerUse()
+	}
 }
