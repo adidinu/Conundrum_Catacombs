@@ -7,5 +7,8 @@ else
 {
 		sprite_index = sPressurePlateWallOpen
 		oPressurePlateWall.depth = 200;
+		open = true
 }
+
+
 

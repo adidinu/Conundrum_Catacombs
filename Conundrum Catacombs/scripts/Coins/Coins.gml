@@ -9,5 +9,6 @@ function Coins()
 		global.coins += 1;
 		show_debug_message(global.coins);
 		instance_destroy(coin_inst);
+		audio_play_sound(sfxCoinsPickup, 1, false, 0.1);
 	}
 }

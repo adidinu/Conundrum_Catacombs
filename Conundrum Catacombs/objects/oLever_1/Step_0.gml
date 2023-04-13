@@ -10,6 +10,7 @@ else if playerObj.countdownTimer > 0
 	show_debug_message(lever1_used);
 }
 
+
 else 
 
 {

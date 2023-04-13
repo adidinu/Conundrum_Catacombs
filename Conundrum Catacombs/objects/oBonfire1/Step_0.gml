@@ -6,3 +6,5 @@ else
 {
 	depth = objPlayer.depth - 1 // appear behind player
 }
+
+audio_listener_position(oPlayer.x, oPlayer.y, 0);

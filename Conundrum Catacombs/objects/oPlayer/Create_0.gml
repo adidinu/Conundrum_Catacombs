@@ -41,3 +41,6 @@ gamepad_set_axis_deadzone(global.GP_NUM,0.5);
 
 
 
+
+
+

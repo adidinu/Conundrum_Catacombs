@@ -7,7 +7,6 @@ if place_meeting(x,y,oPlayer) && playerObj.keyActivate && playerObj.countdownTim
 	instance_destroy(oShadowLeverDoor);
 }
 
-
 if ( y > playerObj.y )
 {
 	depth = playerObj.depth - 1 // appear in frnt of player

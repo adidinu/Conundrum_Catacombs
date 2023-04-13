@@ -7,6 +7,7 @@ function PowerUp()
 		speedWalk = 1;
 		myTime = 30;
 		instance_destroy(tleg_inst);
+		audio_play_sound(sfxEating, 1, false, 0.2);	
 	}
 	
 	if (myTime > 0)

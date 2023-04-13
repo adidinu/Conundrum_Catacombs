@@ -5,6 +5,7 @@ if(checkOpen()){
 	sprite_index = sBlueDoorOpen;
 	instance_destroy(oBlueDoorCol);
 	instance_destroy(oShadowBlueDoor);
+	audio_play_sound(sfxKeyUnlock, 1, false, 0.1);
 	//instance_create_layer(x, y, "Player", oRedDoorOpen);
 	//instance_destroy(id);
 }
