@@ -3,7 +3,7 @@ keyLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or (gamepad_axis_v
 keyRight = keyboard_check(vk_right) or keyboard_check(ord("D")) or (gamepad_axis_value(global.GP_NUM,gp_axislh) > 0); 
 keyUp = keyboard_check(vk_up) or keyboard_check(ord("W")) or (gamepad_axis_value(global.GP_NUM,gp_axislv) < 0);
 keyDown = keyboard_check(vk_down) or keyboard_check(ord("S")) or (gamepad_axis_value(global.GP_NUM,gp_axislv) > 0)
-keyActivate = keyboard_check_pressed(ord("X")) or gamepad_button_check(global.GP_NUM,gp_face1);
+keyActivate = keyboard_check_pressed(ord("X")) or gamepad_button_check(global.GP_NUM,gp_face2);
 keyItem = keyboard_check_pressed(ord("Z"));
 
 

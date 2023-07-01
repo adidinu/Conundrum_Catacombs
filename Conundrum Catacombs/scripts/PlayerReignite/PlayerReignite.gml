@@ -19,4 +19,10 @@ if (oLightTimer.image_xscale > 1.0)
 {
 	oLightTimer.image_xscale = 1.0;
 }
+
+if (oLightTimer.image_xscale = 0)
+{
+	game_restart();
+}
+
 }

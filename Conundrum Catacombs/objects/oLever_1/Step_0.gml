@@ -10,7 +10,7 @@ else if playerObj.countdownTimer > 0
 	if soundPlayed == false
 	{
 		show_debug_message("muie1");
-		audio_play_sound(sfxLever_Pull, 1, false, 1);
+		audio_play_sound(sfxLever_Pull, 1, false, 0.3);
 		soundPlayed = true;
 	}
 }

@@ -1,13 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oAscend",
-  "eventList": [],
+  "name": "oHunter",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Monsters",
+    "path": "folders/Objects/NPC/Monsters.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sAscend",
-    "path": "sprites/sAscend/sAscend.yy",
+    "name": "sHunter",
+    "path": "sprites/sHunter/sHunter.yy",
   },
   "spriteMaskId": null,
   "visible": true,

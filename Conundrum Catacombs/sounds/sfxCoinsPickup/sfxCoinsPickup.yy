@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.45102,
+  "duration": 0.288005,
   "parent": {
     "name": "AudioSFX",
     "path": "folders/Sounds/AudioSFX.yy",

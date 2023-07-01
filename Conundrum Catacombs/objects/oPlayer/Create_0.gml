@@ -6,7 +6,7 @@ state = PlayerStateFree;
 image_speed = 0; // idle animation speed - keep 0
 hSpeed = 0; // horizontal speed
 vSpeed = 0; // vertical speeed
-speedWalk = 3; // speed walk
+speedWalk = 2; // speed walk
 myTime = 0;
 counterFootsteps = 0;
 

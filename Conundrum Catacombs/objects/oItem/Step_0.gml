@@ -9,7 +9,7 @@ if (place_meeting(x, y, oPlayer))
 	}
 	if (type = 0)
 	{
-	audio_play_sound(sfxRockPickup, 1, false);
+	audio_play_sound(sfxRockPickup, 1, false, 0.2);
 	}
 }
 

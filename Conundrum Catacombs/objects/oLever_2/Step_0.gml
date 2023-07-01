@@ -8,7 +8,7 @@ if place_meeting(x,y,oPlayer) && playerObj.keyActivate && playerObj.countdownTim
 	if soundPlayed == false
 	{
 				show_debug_message("muie2");
-		audio_play_sound(sfxLever_Pull, 1, false, 1);
+		audio_play_sound(sfxLever_Pull, 1, false, 0.3);
 		soundPlayed = true;
 	}
 }
