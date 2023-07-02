@@ -3,9 +3,20 @@ function PlayerStateFree()
 {
 /// Movement
 
+	if global.midTransition = true
+{
+	PlayerStateFreeze();
+	
+}
+else if (instance_exists(oTextbox))
+{
+	PlayerStateFreeze();
+}	
+	else
+	{
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
-
+	}
 	/// Footstep Sounds
 
 	if (sprite_index == spriteRun) && (counterFootsteps == 0)

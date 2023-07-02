@@ -6,7 +6,7 @@ state = PlayerStateFree;
 image_speed = 0; // idle animation speed - keep 0
 hSpeed = 0; // horizontal speed
 vSpeed = 0; // vertical speeed
-speedWalk = 2; // speed walk
+speedWalk = 0.7; // speed walk
 myTime = 0;
 counterFootsteps = 0;
 
@@ -28,6 +28,7 @@ localFrame = 0;
 
 /// GamePad Settings
 gamepad_set_axis_deadzone(global.GP_NUM,0.5);
+
 
 
 

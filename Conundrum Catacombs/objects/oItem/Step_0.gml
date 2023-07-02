@@ -3,6 +3,10 @@ if (place_meeting(x, y, oPlayer))
 	InventoryAdd(player.inventory, type);
 	show_debug_message("work");
     instance_destroy();
+	if (type = 3)
+	{
+	audio_play_sound(sfxEating, 1, false, 0.2);		
+	}
 	if (type = 1 or type = 2)
 	{
 	audio_play_sound(sfxPickUpKey, 1, false);

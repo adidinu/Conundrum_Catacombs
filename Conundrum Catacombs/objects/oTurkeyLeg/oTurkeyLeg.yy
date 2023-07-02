@@ -12,7 +12,10 @@
     "name": "Pickable Items",
     "path": "folders/Objects/Pickable Items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oItem",
+    "path": "objects/oItem/oItem.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
