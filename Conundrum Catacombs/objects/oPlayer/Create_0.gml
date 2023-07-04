@@ -17,7 +17,9 @@ inventory = instance_find(oInventory, 0);
 /// Lever Var
 
 countdownTimer = 0;
+textCD = false;
 countdownReset = 0;
+
 
 /// Player Sprites
 
