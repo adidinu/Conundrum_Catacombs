@@ -1,0 +1,1 @@
+LightBar = instance_find(oLightTimer, 0);

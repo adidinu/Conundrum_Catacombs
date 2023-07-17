@@ -15,6 +15,14 @@ if place_meeting(x,y,oDraftCol)
 	oLightTimer.image_xscale -= 0.001;
 }
 
+if (instance_exists(oHunter)) {
+    if (point_distance(x, y, oHunter.x , oHunter.y) < 50) 
+	{
+        oLightTimer.image_xscale -= 0.003;
+    }
+}
+
+
 if (oLightTimer.image_xscale > 1.0) 
 {
 	oLightTimer.image_xscale = 1.0;

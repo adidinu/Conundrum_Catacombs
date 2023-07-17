@@ -4,8 +4,7 @@ event_inherited();
 
 msg = [ 
     [   // Message list for first interaction 
-        ["I need to get out of here.. I know they are watching me", "\"Poor Soul\"" , noone ],
-        ["Wait.. what was that?", "\"Poor Soul\"" , noone ]
+        ["I need some rest.. how did I even get here..", "\"Poor Soul\"" , noone ],
         // Add more messages for first interaction if needed
     ],
 ];

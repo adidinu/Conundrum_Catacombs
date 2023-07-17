@@ -1,4 +1,4 @@
-if ( objPlayer.y > y + sprite_height/2 )
+if ( objPlayer.y > y + sprite_height / 8)
 {
 	depth = objPlayer.depth + 1 // appear in frnt of player
 }

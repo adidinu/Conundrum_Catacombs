@@ -8,6 +8,7 @@ event_inherited();
 			with oPlayer
 			{
 			PowerUp();
+				audio_play_sound(sfxEating, 1, false, 0.2);	
 			show_debug_message("works2");
 			}
 		}
