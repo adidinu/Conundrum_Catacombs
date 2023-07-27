@@ -34,6 +34,7 @@ else if (instance_exists(oTextbox))
 	PlayerCollision(oRedDoorCol);
 	PlayerCollision(oPressurePlateCol);
 	PlayerCollision(oLeverDoorCol);
+	PlayerCollision(oHunter);
 
 	/// Update Sprite Index
 
