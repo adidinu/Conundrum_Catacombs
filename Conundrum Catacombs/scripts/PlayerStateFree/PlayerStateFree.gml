@@ -3,6 +3,11 @@ function PlayerStateFree()
 {
 /// Movement
 
+if (keySprint)
+{
+	PlayerStateSprint();
+}
+
 	if global.midTransition = true
 {
 	PlayerStateFreeze();

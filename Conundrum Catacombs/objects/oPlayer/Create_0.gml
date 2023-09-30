@@ -19,7 +19,8 @@ inventory = instance_find(oInventory, 0);
 countdownTimer = 0;
 textCD = false;
 countdownReset = 0;
-
+isSprinting = false;
+isAiming = false;
 
 /// Player Sprites
 

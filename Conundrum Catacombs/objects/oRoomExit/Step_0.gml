@@ -1,4 +1,4 @@
-var target = rLevel_3;
+var target = rMainMenu;
 
 if (room == rInit) && place_meeting(x,y,oPlayer)
 {

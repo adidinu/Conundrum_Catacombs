@@ -12,7 +12,7 @@ if (point_distance(oHunter.x, oHunter.y, oPlayer.x, oPlayer.y) < 60) {
 		on_path = false;
 		show_debug_message(on_path)
         path_end(); // Specify the path ID
-		mp_potential_step_object(oPlayer.x, oPlayer.y, spd, oCol);
+		mp_potential_step_object(oPlayer.x, oPlayer.y, spd, all);
         last_pos_x = _currentX;
         last_pos_y = _currentY;
     }
@@ -33,9 +33,6 @@ if (point_distance(oHunter.x, oHunter.y, oPlayer.x, oPlayer.y) < 60) {
 			path_reverse(pHunterMonsterL4_1);
 			path_speed = -1;
 		}
-		
-
-		
     } 
     
     if (!on_path)
