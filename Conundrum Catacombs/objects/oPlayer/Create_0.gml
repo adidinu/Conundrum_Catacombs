@@ -20,7 +20,6 @@ countdownTimer = 0;
 textCD = false;
 countdownReset = 0;
 isSprinting = false;
-isAiming = false;
 
 /// Player Sprites
 
