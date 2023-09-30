@@ -1,16 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oNoteWritten",
+  "name": "oBlackScreen",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Notes",
-    "path": "folders/Objects/InteractableObjects/Notes.yy",
+    "name": "Sequences",
+    "path": "folders/Sequences.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sNoteWritten",
-    "path": "sprites/sNoteWritten/sNoteWritten.yy",
+    "name": "sBlackScreen",
+    "path": "sprites/sBlackScreen/sBlackScreen.yy",
   },
   "spriteMaskId": null,
   "visible": true,
