@@ -95,6 +95,8 @@
     {"name":"UI","order":4,"path":"folders/Sprites/UI.yy",},
     {"name":"UsableObjects","order":13,"path":"folders/Sprites/UsableObjects.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"TextboxFaces","order":15,"path":"folders/Sprites/TextboxFaces.yy",},
+    {"name":"GhostFaces","order":1,"path":"folders/Sprites/TextboxFaces/GhostFaces.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"input_mouse_dy","order":8,"path":"scripts/input_mouse_dy/input_mouse_dy.yy",},
@@ -304,6 +306,7 @@
     {"name":"oTurkeyLeg","order":5,"path":"objects/oTurkeyLeg/oTurkeyLeg.yy",},
     {"name":"spr_lut_light_intensity_spot","order":3,"path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},
     {"name":"oPressurePressedRock","order":2,"path":"objects/oPressurePressedRock/oPressurePressedRock.yy",},
+    {"name":"sHiddenFace","order":2,"path":"sprites/sHiddenFace/sHiddenFace.yy",},
     {"name":"__input_config_multiplayer","order":8,"path":"scripts/__input_config_multiplayer/__input_config_multiplayer.yy",},
     {"name":"oCoin","order":6,"path":"objects/oCoin/oCoin.yy",},
     {"name":"oRoomExitMM","order":1,"path":"objects/oRoomExitMM/oRoomExitMM.yy",},
