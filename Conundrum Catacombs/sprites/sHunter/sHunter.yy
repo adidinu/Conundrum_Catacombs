@@ -61,7 +61,7 @@
     ],
     "top": 0,
   },
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "NPCs",
     "path": "folders/Sprites/NPCs.yy",
@@ -113,7 +113,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 8,
-    "yorigin": 8,
+    "yorigin": 16,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

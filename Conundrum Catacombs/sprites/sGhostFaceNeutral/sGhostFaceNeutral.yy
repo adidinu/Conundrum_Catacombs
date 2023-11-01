@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sCrosshair",
-  "bbox_bottom": 7,
+  "name": "sGhostFaceNeutral",
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 7,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d17a2c5-4235-47e6-ae8e-609eb1de0a52",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa56a449-8466-4f54-b351-330897717258",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 8,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"40bd22e9-fc70-47a1-b0cb-f51657d17fd4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d726a2d8-9aea-46ed-b5d9-295b5d7c40af","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "GhostFaces",
+    "path": "folders/Sprites/TextboxFaces/GhostFaces.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sCrosshair",
+    "name": "sGhostFaceNeutral",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2d17a2c5-4235-47e6-ae8e-609eb1de0a52","path":"sprites/sCrosshair/sCrosshair.yy",},},},"Disabled":false,"id":"eddba46a-a3f4-412f-81c3-4d70a65eb1e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fa56a449-8466-4f54-b351-330897717258","path":"sprites/sGhostFaceNeutral/sGhostFaceNeutral.yy",},},},"Disabled":false,"id":"de623cca-4c71-448c-b47a-277d229c4a54","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 8,
+  "width": 32,
 }
