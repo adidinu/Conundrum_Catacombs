@@ -114,6 +114,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UsableObjects","folderPath":"folders/Sprites/UsableObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TextboxFaces","folderPath":"folders/Sprites/TextboxFaces.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GhostFaces","folderPath":"folders/Sprites/TextboxFaces/GhostFaces.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
