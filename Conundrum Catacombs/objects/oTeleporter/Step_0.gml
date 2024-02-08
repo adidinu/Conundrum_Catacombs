@@ -43,7 +43,7 @@ if (point_distance(oTeleporter.x, oTeleporter.y, oPlayer.x, oPlayer.y) < 60) {
 			oPlayer.y = 481
 			instance_destroy();
 		}
-		instance_create_layer(0, 0, layer_get_id("UI"), oBlackScreen);
+		instance_create_layer(0, 0, layer_get_id("DeathScreen"), oBlackScreen);
 	}
     //mp_potential_step_object(oPlayer.x, oPlayer.y, spd, oCol);
 } else {
@@ -97,5 +97,12 @@ else
 	}
 }
 
-
+if ( global.default_player.y > y + sprite_height/2 )
+{
+	depth = global.default_player.depth + 1 // appear in frnt of player
+}
+else
+{
+	depth = global.default_player.depth - 1 // appear behind player
+}
 

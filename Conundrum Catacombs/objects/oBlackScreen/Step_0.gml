@@ -5,6 +5,5 @@ if(despawnTimer <= 0){
 	instance_destroy(oBlackScreen);
 }
 else if(despawnTimer <= 2){
-	show_debug_message(despawnTimer);
 	image_alpha = despawnTimer / 2;
 }

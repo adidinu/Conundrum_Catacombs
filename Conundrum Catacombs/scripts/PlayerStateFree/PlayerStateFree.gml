@@ -3,6 +3,7 @@ function PlayerStateFree()
 {
 /// Movement
 
+
 if (keySprint)
 {
 	PlayerStateSprint();
@@ -13,12 +14,14 @@ if (keySprint)
 	PlayerStateFreeze();
 	
 }
-else if (instance_exists(oTextbox))
+else if (instance_exists(oTextbox)) || place_meeting(oPlayer.x, oPlayer.y, oSleepingCol) || instance_exists(oBlackScreen)
 {
 	PlayerStateFreeze();
 }	
 	else
 	{
+	PlayerFreeze = false;
+	
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 	}
@@ -44,6 +47,7 @@ else if (instance_exists(oTextbox))
 	/// Update Sprite Index
 
 	var _oldSprite = sprite_index;
+	
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
@@ -52,12 +56,13 @@ else if (instance_exists(oTextbox))
 	if (_oldSprite != sprite_index) localFrame = 0;
 
 	/// Update Image Index
+	
+	PlayerAnimateSprite()
 
-	PlayerAnimateSprite();
 
 	/// Change State - create state change conditions
-
-
+	
+	
 	// Reignite Torch
 	if (keyItem)
 	{

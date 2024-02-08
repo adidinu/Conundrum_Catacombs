@@ -63,8 +63,8 @@
   },
   "origin": 7,
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Sprites/NPCs.yy",
+    "name": "Monsters",
+    "path": "folders/Sprites/NPCs/Monsters.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

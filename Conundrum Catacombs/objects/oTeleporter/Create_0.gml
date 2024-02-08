@@ -13,5 +13,5 @@ localFrame = 0;
 path_ended = false;
 random_number = -1;
 
-image_xscale = 1.5;
-image_yscale = 1.5;
+image_xscale = 1;
+image_yscale = 1;

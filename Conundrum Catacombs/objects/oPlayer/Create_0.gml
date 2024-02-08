@@ -9,6 +9,8 @@ vSpeed = 0; // vertical speeed
 speedWalk = 0.7; // speed walk
 myTime = 0;
 counterFootsteps = 0;
+_timer = 0;
+PlayerFreeze = false;
 
 /// Inventory
 
@@ -24,12 +26,16 @@ isSprinting = false;
 /// Player Sprites
 
 spriteReignite = sPlayerReignite;
+spriteSleeping = sSleepingPlayer;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
 
 /// GamePad Settings
 gamepad_set_axis_deadzone(global.GP_NUM,0.5);
+
+
+
 
 
 

@@ -46,5 +46,28 @@ LeverUsage();
 x += hSpeed;
 y += vSpeed;
 
+// sleeping animation >>
+
+
+
+if (instance_exists(otestplayer))
+{
+    visible = false;
+    speed = 0; 
+}
+else
+{
+    visible = true;
+}
+
+
+// Checkpoint System with Bonfires
+
+if instance_exists(oBonfire){
+	
+	if place_meeting(x, y, oBonfire) {
+		SaveCheckpoint();
+	}
+}
 
 

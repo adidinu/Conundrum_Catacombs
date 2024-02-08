@@ -30,8 +30,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sTeleporter",
-    "path": "sprites/sTeleporter/sTeleporter.yy",
+    "name": "sTeleporterTest",
+    "path": "sprites/sTeleporterTest/sTeleporterTest.yy",
   },
   "spriteMaskId": null,
   "visible": true,
